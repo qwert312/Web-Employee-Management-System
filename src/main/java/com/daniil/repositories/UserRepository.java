@@ -1,7 +1,6 @@
 package com.daniil.repositories;
 
 import com.daniil.entities.User;
-import com.daniil.entities.enums.Role;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

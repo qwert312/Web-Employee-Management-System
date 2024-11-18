@@ -10,8 +10,6 @@ public class Division {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "department_seq")
-//    @SequenceGenerator(name = "department_seq", sequenceName = "department_id_seq")
     private long id;
 
     @Column(nullable = false, unique = true)
