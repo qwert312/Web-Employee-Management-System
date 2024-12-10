@@ -2,15 +2,15 @@
 Реализованное приложение позволяет пользователю работать с данными сотрудников гипотетической компании прямо в браузере - удалять, добавлять, просматривать и изменять уже существующих работников в базе данных. Помимо этого в приложении реализована система безопасности, разграничивающая возможности пользователей с разными ролями. Так, например, гости могут только просматривать данные сотрудников, тогда как администраторы могут практически всё - начиная с работы с данными сотрудников, заканчивая просмотром и манипуляциями с существующими пользователями.
 # Использованные технологии
 Программа была создана с использованием:
-* IntelliJ IDEA
-* Java
-* HTML
-* Thymeleaf
+* IntelliJ IDEA 2024.1.6
+* JDK 22
+* HTML5
+* Thymeleaf 
 * Spring (Spring Boot, Spring Core, Spring MVC, Spring Data JPA, Spring Security)
-* PostgreSQL
-* JPA/Hibernate
+* PostgreSQL 17
+* JPA/Hibernate 
 # Установка и запуск
-1. Скачать и распаковать архив  WebEmployeeManagmentSystem из [релизов](https://github.com/qwert312/Web-Employee-Management-System/releases/latest).
+1. Скачать и распаковать архив WebEmployeeManagmentSystem из [релизов](https://github.com/qwert312/Web-Employee-Management-System/releases/latest).
 2. Создать и заполнить базу данных из скрипта emsDump.sql, выполнив его в PostgreSql.
 3. (Опционально) Поменять под себя свойства в файле application.properties, если необходимо.
 4. Запустить WebEmployeeManagementSystem-1.0.0-SNAPSHOT.jar

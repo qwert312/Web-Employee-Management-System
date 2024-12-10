@@ -1,7 +1,6 @@
 package com.daniil.entities;
 
 import jakarta.persistence.*;
-import org.hibernate.annotations.Check;
 
 import java.util.Set;
 

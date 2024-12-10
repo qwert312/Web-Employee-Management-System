@@ -28,7 +28,7 @@ public class SecurityConfiguration {
                         .requestMatchers("/employees", "/employees/{id}").authenticated())
                 .formLogin(formLogin -> formLogin
                         .loginPage("/login")
-                        .defaultSuccessUrl("/main")
+                        .defaultSuccessUrl("/main", true)
                         .permitAll())
                 .logout(config -> config
                         .logoutUrl("/logout")
