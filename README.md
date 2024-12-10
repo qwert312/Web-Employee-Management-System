@@ -13,7 +13,7 @@
 1. Скачать и распаковать архив WebEmployeeManagmentSystem из [релизов](https://github.com/qwert312/Web-Employee-Management-System/releases/latest).
 2. Создать и заполнить базу данных из скрипта emsDump.sql, выполнив его в PostgreSql.
 3. (Опционально) Поменять под себя свойства в файле application.properties, если необходимо.
-4. Запустить WebEmployeeManagementSystem-1.0.0-SNAPSHOT.jar
+4. Запустить web-employee-management-system.jar
 
 Дальше доступ к страницам веб-приложения можно получить через стандартный localhost:8080. Например localhost:8080/login для доступа к логин-форме
 # Использование
